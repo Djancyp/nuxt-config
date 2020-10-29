@@ -1,0 +1,14 @@
+{
+  "name": "@nuxtjs/config",
+  "version": "1.0.0",
+  "description": "config module for nuxt",
+  "main": "lib/module.js",
+  "author": "Djan Onurer",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "config": "^3.3.2"
+  }
+}
