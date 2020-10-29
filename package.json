@@ -1,13 +1,23 @@
 {
-  "name": "@nuxtjs/config",
-  "version": "1.0.0",
+  "name": "nuxt-json-config",
+  "version": "0.0.2",
   "description": "config module for nuxt",
   "main": "lib/module.js",
-  "author": "Djan Onurer",
+  "author": "djan",
   "license": "MIT",
+  "repository": "https://github.com/Djancyp/nuxt-config",
+  "keywords": [
+    "nuxtjs",
+    "nuxt",
+    "config",
+    "json config"
+  ],
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "config": "^3.3.2"
   }
