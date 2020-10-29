@@ -25,8 +25,14 @@ $ vi config/default.json
  }
 }
 ```
+3- Register module in nuxt.config.js
+```python
+  modules: [
+    'nuxt-json-config'
+  ],
+```
 
-3- yarn dev and start the project
+4- yarn dev and start the project
 
 in components, you can access all config by
 
